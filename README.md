@@ -1,6 +1,6 @@
 
 ---
-## Data Structure & Algorithms 학습을 위한 훈련 일지
+## 💻 Data Structure & Algorithms 학습을 위한 훈련 기록 ✨
 ---
 #### 1. Essential Technics
 >>
