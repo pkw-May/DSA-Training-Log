@@ -1,6 +1,7 @@
 N, K = map(int, input().split())
-coins = reversed(list(map(int, (input() for _ in range(N)))))
- 
+coins = list(map(int, (input() for _ in range(N))))
+coins.reverse()
+
 count = 0 
 
 for coin in coins:
