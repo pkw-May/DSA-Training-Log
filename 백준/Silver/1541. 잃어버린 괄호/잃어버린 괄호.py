@@ -1,14 +1,18 @@
-posList = input().split('-')
-nums = []
+exp = input()
+numsToSub = []
+result = 0
 
-for pos in posList:
+for nums in exp.split('-'):
     temp = 0
-    for num in pos.split('+'):
-        temp += int(num)
-    nums.append(temp)
 
-result = nums[0]
-for i in range(1, len(nums)):
-    result -= nums[i]
+    for posNum in nums.split('+'):
+        temp += int(posNum)
+
+    numsToSub.append(temp)
+
+result = numsToSub[0]
+
+for num in numsToSub[1:]:
+    result -= num
 
 print(result)
