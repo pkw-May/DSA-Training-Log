@@ -8,21 +8,18 @@ int main(void)
     char res[3] = "";
     scanf("%d %d", &a, &b);
 
-    if (a > b)
+        if (a > b)
     {
         res[0] = '>';
-        res[1] = '\0';
     }
     else if (a < b)
     {
         res[0] = '<';
-        res[1] = '\0';
     }
     else if (a == b)
     {
         res[0] = '=';
         res[1] = '=';
-        res[2] = '\0';
     }
 
     printf("%s", res);
